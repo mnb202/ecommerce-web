@@ -5,17 +5,17 @@ import ButtonComponent from '../../components/ButtonComponent/ButtonComponent'
 import imageLogo from '../../assets/images/logo-login.png'
 import { Image } from 'antd'
 import { IoEyeOutline, IoEyeOffOutline } from "react-icons/io5";
-
+import './style.css'
 
 const SignUpPage = () => {
   const [isShowPassword] = useState(false)
 
   return (
-    <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', background:'#ccc',height: '100vh',}}>
-      <div style={{width:'800px', height: '450px', borderRadius: '6px', background: '#fff', display: 'flex'}}>
+    <div className='SignUpPage'>
+      <div style={{width:'800px', height: '450px', borderRadius: '6px', background: '#fff', display: 'flex',fontSize:'15px'}}>
       <WrapperContainerLeft>
-        <h1>Xinchao</h1>
-        <p>Đăng nhập và tạo tài khoản </p>
+        <h1>Chào mừng đến Alibarbe</h1>
+        <p>Hãy tài khoản mới </p>
         <InputForm style={{marginBottom:'10px'}} placeholder="abc@gmail.com" />
         <div style={{ position: 'relative',marginBottom:'10px' }}>
             <span
@@ -24,6 +24,7 @@ const SignUpPage = () => {
                 position: 'absolute',
                 top: '4px',
                 right: '8px',
+                fontSize:'18px'
                 
               }}
             >{
@@ -43,7 +44,8 @@ const SignUpPage = () => {
                 zIndex: 10,
                 position: 'absolute',
                 top: '4px',
-                right: '8px'
+                right: '8px',
+                fontSize:'18px'
               }}
             >{
                 isShowPassword ? (
@@ -67,14 +69,14 @@ const SignUpPage = () => {
               borderRadius: '15px', 
               margin: '26px 0px 10px'
             }}
-            textbutton={"Đăng nhập"}
+            textbutton={"Đăng kí"}
             styleTextButton={{ color: '#fff', fontSize:'15px', fontWeight:'700' }}>
           </ButtonComponent>
           <p>Bạn đã có tài khoản? <WrapperTextLight> Đăng nhập </WrapperTextLight></p>
       </WrapperContainerLeft>
       <WrapperContainerRight>
           <Image src={imageLogo} preview={false} alt='Image-logo' height='203px' width='203px' />
-          <h4 style={{color: '#fff', fontSize:'15px', fontWeight:'700'}}>Mua sắm tại ALIBARBE</h4>
+          <h4 style={{color: '#fff', fontSize:'20px', fontWeight:'700'}}>Mua sắm tại ALIBARBE</h4>
       </WrapperContainerRight>
     </div>
     </div>

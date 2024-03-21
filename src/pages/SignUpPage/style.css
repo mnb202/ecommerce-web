@@ -1,0 +1,11 @@
+.SignUpPage{
+    width: 100%;
+    height: 100vh;
+    background: 
+    linear-gradient(to left bottom,rgba(255, 92, 63, 0.8), rgba(255, 84, 124, 0.8) ), 
+    url("../../assets/images/thumbai.jpg") center/cover;  
+    display: flex;
+    align-items:center;
+    justify-content: center; 
+}
+

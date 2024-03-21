@@ -1,0 +1,43 @@
+.Nav-Slide{    
+    width:100%;
+    height: 400px;
+    background-color:#fff ;
+    border-radius: 8px;
+    border: 1px solid #c1c2c3;
+    margin: 20px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+.conainer-banner{
+    display: grid;
+    align-items: center;
+}
+.container-banner .banner{
+    width: 664px;
+    height: 380px;
+}
+
+.Deal-Sale{    
+    width: 100%;
+    height: 240px;
+    background-color:#fff ;
+    border-radius: 8px;
+    border: 1px solid #c1c2c3;
+    margin-top: 20px;
+    display: flex;
+}
+
+.Deal-Sale-Items{
+    display: flex;
+    gap: 20px;
+}
+
+.Recommended{
+    font-size: 20px;
+    text-transform:capitalize;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 40px 0px 5px 0px ;
+    text-shadow:  2px 2px 3px #939392;
+}

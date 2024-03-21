@@ -1,0 +1,69 @@
+.FooterComponent{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+
+.Footer01{
+    margin-top: 45px;
+}
+.Footer01-Brand{
+    width:100px;
+}
+.Footer01-Content{
+    width: 260px;
+    color: #5c5c5c;
+}
+.Footer01-Icon{
+    width: 200px;
+    color: #5c5c5c;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.Footer02{
+    margin-top: 50px;
+}
+.Footer02-Heading{
+    font-size: 18px;
+    margin: 0px;
+}
+.Footer02-Context{
+    font-size: 15px;
+    margin: 10px 0px 0px 0px ;
+    color: #8B96A5;
+}
+
+.Footer06{
+    margin-top: 50px;
+}
+.Footer06-GetApple{
+    width: 125px;
+    height: 45px;
+    margin-top: 15px;
+    background-color: black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Footer06-GetApple-icon{
+    color: #fff;
+    font-size: 35px;
+}
+.Footer06-GetApple-content{
+    margin-left: 3px;
+    color: #fff;
+}
+.Footer06-GetApple-content01{
+    font-size: 8px;
+    margin: 0px;
+}
+.Footer06-GetApple-content02{
+    margin: 0px;
+    font-size: 17px;
+}
