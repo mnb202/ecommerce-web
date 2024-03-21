@@ -1,0 +1,29 @@
+.container-countdowntime{
+    width: 280px;
+    /* border-right: 2px solid rgb(202, 201, 201); */
+}
+.countdowntime-content-h4{
+    margin: 20px 0px 0px 20px;
+    font-size: larger;
+}
+.countdowntime-content-p{
+    margin: 0px 0px 0px 20px;
+    font-size: smaller;
+    color: rgb(88, 88, 88);
+}
+.time{
+    display: flex;
+    margin: 15px 0px 0px 20px;
+    width:220px;
+    gap: 10px
+}
+.time-box{
+    width: calc(100% /4);
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    border-radius: 5px;
+}

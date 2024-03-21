@@ -1,0 +1,28 @@
+.container-menu{
+    height: 360px;
+    margin: 10px;
+    font-size: 20px;
+}
+.table-menu{
+    list-style: none;
+    display: grid;
+    align-items: center;
+    margin: 0px 0px;
+    padding: 0px;
+}
+.list-menu{
+    width: 230px;
+    height: 40px;
+    display:grid;
+    align-items: center;
+    padding-left: 20px;
+}
+.list-menu:hover{
+    background-color: #efc28f;
+    border-radius: 10px;
+}
+.list-menu:active{
+    background-color: #efc28f;
+    border-radius: 10px;
+    border: 2px solid #694822;
+}

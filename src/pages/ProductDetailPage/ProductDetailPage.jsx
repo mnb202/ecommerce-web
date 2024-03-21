@@ -4,7 +4,6 @@ import ProductDetailComponnent from '../../components/ProductDetailComponnent/Pr
 const ProductDetailPage = () => {
   return (
     <div style={{padding: '0px 120px', background:'#efefef', height:'1000px'}}>
-      <span>Home</span>
         <ProductDetailComponnent/>
     </div>
   )

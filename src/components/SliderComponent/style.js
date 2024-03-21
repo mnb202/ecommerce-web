@@ -26,7 +26,7 @@ export const WrapperSliderStyle = styled(Slider)`
         li {
             button {
                 &::before {
-                    color: #F4A460
+                    color: #fff
                 }
             }
         }
